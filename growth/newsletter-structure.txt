@@ -1,0 +1,6 @@
+Newsletter Structure
+
+1. Insight
+2. Case example
+3. Tool or template
+4. Call to action
