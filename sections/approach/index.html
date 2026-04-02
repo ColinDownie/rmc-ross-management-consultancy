@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Approach | Ross Management Consultancy</title>
+
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <!-- Dark Mode Stylesheet -->
+    <link rel="stylesheet" href="../../assets/css/dark.css">
 </head>
 <body>
 
@@ -18,6 +23,9 @@
         <a href="../clients/index.html">Clients</a>
         <a href="../contact/index.html">Contact</a>
     </nav>
+
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle" onclick="toggleTheme()">Dark Mode</div>
 </header>
 
 <section class="hero">
@@ -62,6 +70,28 @@
 <footer>
     <p>© Ross Consultancy Group</p>
 </footer>
+
+<!-- Dark Mode Script -->
+<script>
+function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    updateToggleText(newTheme);
+}
+
+function updateToggleText(theme) {
+    const toggle = document.querySelector(".theme-toggle");
+    toggle.textContent = theme === "dark" ? "Light Mode" : "Dark Mode";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    updateToggleText(savedTheme);
+});
+</script>
 
 </body>
 </html>
