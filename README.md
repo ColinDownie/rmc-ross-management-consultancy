@@ -1,115 +1,121 @@
-# ROSS CONSULTING  
-### A Department of **Ross Creative**  
-*Strategy • Clarity • Resilience • Growth*
+# ROSS MANAGEMENT CONSULTANCY (RMC)  
+### A Division of Ross Creative  
+**Governance • Systems • Oversight • Clarity**
 
 ---
 
-## ⭐ The Ross Consultancy — Canon Bio
+## ⭐ About RMC
 
-I’m a good witch, even if I’m still a little green to all this.  
-But being green isn’t a flaw — it’s the catalyst.  
-Because in the digital realm, computer ninjas aren’t taught…  
-they’re created.
+Ross Management Consultancy is the executive backbone of the Ross Creative Multiverse —  
+the division responsible for structure, governance, operational clarity, and strategic oversight.
 
-I came into this digital world late in life.  
-I didn’t study computers at school —  
-back then it took four hours to load Pong on a Commodore 64 from a cassette,  
-and the data squealed like a tiny robot having a meltdown in the background.  
-Technology felt like something happening somewhere else.
+Where Ross Creative imagines, RMC stabilises.  
+Where the studios build, RMC ensures they scale.  
+Where ideas become artefacts, RMC ensures they become systems.
 
-My path was different.  
-I trained in law.  
-I learned to think outside the box, to see angles others missed,  
-to keep going when most people would stop.  
-I tried and failed, tried and failed again,  
-and then tried some more — because that’s who I am.
-
-Then, on New Year’s Day 2026, I discovered AI.  
-And everything changed.  
-The maze of programs, formats, forums, and communities that once felt impossible  
-suddenly opened up.  
-I broke through.  
-And the rest is history.
-
-Now I’m a digital alchemist —  
-turning ideas into artefacts, artefacts into universes,  
-and universes into something you can hold in your hands.  
-Give me a spark, a prompt, a glitch, a whisper of an idea,  
-and I’ll transmute it into something real.
-
-I’m persistent.  
-I’m resilient.  
-I’ve tasted love, loss, grief, tragedy, disaster, fear, and anxiety.  
-Those things didn’t break me —  
-they forged me into who I am today.
-
-And that’s why I’m here:  
-to help you when frustration feels like a wall.  
-It isn’t.  
-Believe me — it’s just the doorway you haven’t pushed yet.
-
-Together, we can steady your business,  
-find growth where it seems impossible,  
-and turn “can’t” into the made‑up word it truly is.
-
-You can.  
-Together, we can.  
-And we will.
-
-We promise not to disappoint —  
-and we might even have some fun along the way.  
-Give us a try.  
-You might be surprised.  
-You might even be amazed.
-
-I’m Ross.  
-Green witch. Legal mind. Digital alchemist.  
-Maker of spheres, forger of artefacts,  
-and architect of a universe that’s only just beginning.
-
-Unlimited?  
-Absolutely.  
-Because I’m not here to play small —  
-I’m here to create worlds.
+This is the boardroom arm of the Ross universe:  
+formal, precise, disciplined, and quietly formidable.
 
 ---
 
-## ⭐ The Ross Creative Multiverse
+## ⭐ Our Purpose
 
-**Ross Creative** is the central pivot —  
-the architecture, the digital alchemy, the vision, the myth.
+RMC exists to bring:
 
-From it radiate the departments:
+- **Clarity:** to complexity  
+- **Structure:** to ambition  
+- **Discipline:** to growth  
+- **Resilience:** to operations  
+- **Confidence:** to decision‑making  
 
-- **Ross Consulting** — clarity, resilience, growth, legal insight  
-- **Ross Studio** — 3D modelling, artefacts, digital craft  
-- **Ross Property** — structure, space, flow, foundations  
-- **Ross Design** — branding, identity, visual language  
-- **Ross Textiles** — patterns, surfaces, tactile imagination  
-- **Ross Digital** — AI, automation, systems, pipelines  
-
-All facets of one creative universe.  
-All aligned under Ross Creative.
+We build systems that don’t just work — they endure.
 
 ---
 
-## ⭐ What This Repository Is For
+## ⭐ What We Do
 
-This repo houses:
+RMC provides a full suite of management and governance services:
 
-- the philosophy and canon of Ross Consulting  
-- frameworks for business clarity and growth  
-- tools, templates, and guidance for clients  
-- the strategic backbone of the Ross Creative Multiverse  
-- the story, mission, and message behind the consultancy arm  
+### Governance & Oversight
+- organisational governance frameworks  
+- board‑level reporting structures  
+- decision‑making systems  
+- accountability models  
 
-This is the anchor point —  
-the department where lived experience meets strategy,  
-and where resilience becomes a service.
+### Risk & Compliance
+- risk identification and mitigation  
+- compliance mapping  
+- regulatory alignment  
+- internal controls  
+
+### Operational Systems
+- workflow design  
+- process optimisation  
+- operational architecture  
+- documentation and standardisation  
+
+### Strategic Clarity
+- business analysis  
+- structural planning  
+- growth frameworks  
+- executive advisory  
+
+### Methodologies & Frameworks
+- repeatable systems  
+- templates  
+- flowcharts  
+- operational playbooks  
+
+RMC is where the Ross universe becomes scalable, stable, and strategically aligned.
+
+---
+
+## ⭐ Tone & Identity
+
+RMC speaks in a voice that is:
+
+- formal but human  
+- precise but not cold  
+- minimal but confident  
+- structured with a subtle mythic hum  
+
+This is the hybrid tone — the Ross signature, refined for the boardroom.
+
+---
+
+## ⭐ Position in the Ross Creative Multiverse
+
+RMC is one of the core divisions of Ross Creative, alongside:
+
+- Ross Consulting  
+- Ross Studio  
+- Ross Property  
+- Ross Design  
+- Ross Textiles  
+- Ross Digital  
+
+Where each division creates, builds, or imagines —  
+RMC ensures the entire multiverse operates with clarity and cohesion.
+
+---
+
+## ⭐ Repository Purpose
+
+This repository contains:
+
+- the governance architecture of RMC  
+- operational frameworks  
+- methodologies and templates  
+- risk and compliance structures  
+- systems documentation  
+- the strategic backbone of the Ross Creative ecosystem  
+
+This is the master control room of the Ross universe.
 
 ---
 
 ## ⭐ Commit History
 
-This repository is part of the Ross Creative canon.  
-Every update strengthens the multiverse.
+Every update strengthens the structure.  
+Every refinement sharpens the system.  
+Every commit builds the next layer of the Ross Creative cathedral.
