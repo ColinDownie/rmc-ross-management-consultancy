@@ -1,0 +1,45 @@
+/* Dark Mode Theme for Ross Management Consultancy */
+
+:root[data-theme='dark'] {
+    --background: #111111;
+    --text: #f2f2f2;
+    --box-bg: #1a1a1a;
+    --border: #333333;
+    --accent: #4da3ff;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+header,
+footer {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.hero {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.blank-box {
+    background: var(--box-bg);
+    border: 1px solid var(--border);
+}
+
+a {
+    color: var(--accent);
+}
+
+.theme-toggle {
+    cursor: pointer;
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    background: var(--box-bg);
+    color: var(--text);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 16px;
+}
