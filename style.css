@@ -105,6 +105,34 @@ nav ul li a:hover {
     background: #333;
     transform: translateY(-2px);
 }
+/* -----------------------------------
+   NAV GRID (Premium Layout)
+----------------------------------- */
+.nav-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--space-xs);
+    padding: var(--space-s) var(--space-m);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-grid li a {
+    display: block;
+    padding: 10px 14px;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    border-radius: var(--radius-s);
+    text-align: center;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.nav-grid li a:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
 
 /* -----------------------------------
    BUTTONS
