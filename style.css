@@ -135,7 +135,21 @@ nav ul li a:hover {
     box-shadow: var(--shadow-card);
     margin-bottom: var(--space-m);
 }
+/* -----------------------------------
+   CLEAN LISTS (for capability lists)
+----------------------------------- */
+.clean-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: var(--space-s);
+    columns: 2;
+    column-gap: var(--space-l);
+}
 
+.clean-list li {
+    margin-bottom: var(--space-xs);
+    padding-left: 0;
+}
 /* -----------------------------------
    FOOTER
 ----------------------------------- */
