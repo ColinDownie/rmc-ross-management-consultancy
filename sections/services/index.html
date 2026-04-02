@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | RMC</title>
+    <title>Services | Ross Management Consultancy</title>
+
     <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/dark.css">
 </head>
 <body>
 
@@ -18,28 +20,30 @@
         <a href="../clients/index.html">Clients</a>
         <a href="../contact/index.html">Contact</a>
     </nav>
+
+    <div class="theme-toggle" onclick="toggleTheme()">Dark Mode</div>
 </header>
 
 <section class="hero">
     <h1>Our Services</h1>
-    <p>Structured, clear and commercially grounded consultancy.</p>
+    <p>Clear structure. Realistic planning. Delivery that holds up in the real world.</p>
 </section>
 
 <section class="content">
 
     <div class="blank-box">
         <h2>Strategy & Structure</h2>
-        <p>We define the system, the constraints and the path forward.</p>
+        <p>We define the system, establish the sequence and identify the critical points of leverage.</p>
     </div>
 
     <div class="blank-box">
-        <h2>Governance & Delivery</h2>
-        <p>We support execution with clarity, discipline and accountability.</p>
+        <h2>Governance & Decision Support</h2>
+        <p>We strengthen decision pathways, surface implications early and reduce organisational risk.</p>
     </div>
 
     <div class="blank-box">
         <h2>Operational Improvement</h2>
-        <p>We simplify processes and remove friction across teams.</p>
+        <p>We simplify processes, remove friction and support teams with clarity and discipline.</p>
     </div>
 
 </section>
@@ -47,6 +51,25 @@
 <footer>
     <p>© Ross Consultancy Group</p>
 </footer>
+
+<script>
+function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    updateToggleText(newTheme);
+}
+function updateToggleText(theme) {
+    const toggle = document.querySelector(".theme-toggle");
+    toggle.textContent = theme === "dark" ? "Light Mode" : "Dark Mode";
+}
+document.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    updateToggleText(savedTheme);
+});
+</script>
 
 </body>
 </html>
