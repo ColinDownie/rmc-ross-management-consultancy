@@ -1,14 +1,39 @@
+/* =========================================
+   Base Theme Variables (Light Mode Default)
+   ========================================= */
+
+:root {
+    --background: #ffffff;
+    --text: #222222;
+    --header-bg: #000000;
+    --header-text: #ffffff;
+    --hero-bg: #f4f4f4;
+    --box-border: #dddddd;
+    --box-bg: #ffffff;
+    --footer-bg: #000000;
+    --footer-text: #ffffff;
+    --accent: #0044cc;
+}
+
+/* =========================================
+   Global Styles
+   ========================================= */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #ffffff;
-    color: #222;
+    background: var(--background);
+    color: var(--text);
 }
+
+/* =========================================
+   Header
+   ========================================= */
 
 header {
     padding: 20px;
-    background: #000;
-    color: #fff;
+    background: var(--header-bg);
+    color: var(--header-text);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +45,7 @@ header {
 }
 
 .main-menu a {
-    color: #fff;
+    color: var(--header-text);
     margin-left: 20px;
     text-decoration: none;
 }
@@ -29,25 +54,50 @@ header {
     text-decoration: underline;
 }
 
+/* Dark Mode Toggle Button */
+.theme-toggle {
+    cursor: pointer;
+    padding: 8px 14px;
+    border: 1px solid var(--box-border);
+    background: var(--box-bg);
+    color: var(--text);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+/* =========================================
+   Hero Section
+   ========================================= */
+
 .hero {
     padding: 80px 20px;
     text-align: center;
-    background: #f4f4f4;
+    background: var(--hero-bg);
 }
+
+/* =========================================
+   Content Blocks
+   ========================================= */
 
 .content {
     padding: 40px 20px;
 }
 
 .blank-box {
-    border: 1px solid #ddd;
+    border: 1px solid var(--box-border);
+    background: var(--box-bg);
     padding: 20px;
     margin-bottom: 20px;
 }
 
+/* =========================================
+   Footer
+   ========================================= */
+
 footer {
     padding: 20px;
     text-align: center;
-    background: #000;
-    color: #fff;
+    background: var(--footer-bg);
+    color: var(--footer-text);
 }
